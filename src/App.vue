@@ -1,17 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="app">
+    <mary-options />
+    <mary-composition />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MaryOptions from './components/MaryOptions'
+import MaryComposition from './components/MaryComposition'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MaryOptions,
+    MaryComposition
   }
 }
 </script>
